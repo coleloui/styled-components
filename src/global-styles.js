@@ -1,3 +1,6 @@
+import {createGlobalStyle} from 'styled-components';
+
+const GlobalStyles = createGlobalStyle`
 :root {
 	--primary: #645cff;
 	--white: #fff;
@@ -12,17 +15,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	background: #f2f4f8;
 }
+`
 
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-		monospace;
-}
-
-.bg-grey {
-	background: grey;
-}
-
-.title {
-	text-transform: uppercase;
-	color: red;
-}
+export default GlobalStyles
