@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+// import styled from 'styled-components'
 import List from './components/List';
 import GlobalStyles from './global-styles';
 

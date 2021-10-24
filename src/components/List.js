@@ -5,6 +5,18 @@ const fruits = ['orange', 'apple', 'banana', 'peach']
 
 const Item = styled.li`
 list-style-type: none;
+${({ odd }) => {
+    return odd?css`
+    color:white;
+    background: red;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    `
+    : css`
+    color: #222;
+    padding: 1rem;
+    `
+}}
 `
 
 const List = () => {
