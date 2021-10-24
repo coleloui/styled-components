@@ -23,7 +23,7 @@ const List = () => {
     return (
         <ul>
          {fruits.map((item, index) => {
-             return <Item key={index} odd={(index+1 %2 !== 0)}>{item}</Item>
+             return <Item key={index} odd={(index+1) %2 !== 0}>{item}</Item>
          })}
         </ul>
     )
