@@ -7,7 +7,7 @@ export const ComplexTitle = ({title}) => {
         <Wrapper className='bg-grey'>
             <h1>{title}</h1>
             <div className="underline"></div>
-            <div className="box"></div>
+            {/* <div className="box"></div> */}
         </Wrapper>
     )
 }
